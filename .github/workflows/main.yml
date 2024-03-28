@@ -26,7 +26,6 @@ jobs:
 
     - name: Installing requirements
       run : |
-          pip install os-sys
           pip install GitPython
           pip install markdown
           pip install py_gfm
