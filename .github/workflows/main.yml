@@ -21,7 +21,7 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-          role-to-assume: arn:aws:iam::286281612134:role/Github-ParlAI-Role
+          role-to-assume: arn:aws:iam::286281612134:role/Saad-OIDC-test
           aws-region: us-east-1
 
     - name: Installing requirements
